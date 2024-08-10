@@ -425,6 +425,9 @@ body {
     font-weight: 400;
     line-height: 37.5px;
     letter-spacing: 0.22px;
+    display: flex;
+    
+    align-items: center;
 }
 
 .review-country {
