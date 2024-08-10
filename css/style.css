@@ -457,20 +457,33 @@ body {
 .progectdesign-img:nth-child(3) .project-card {
     margin-top: 150px;
 }
-.work {
-    background-color: var(--about-color);
-    margin-bottom: 150px;
-    margin-top: 140px;
-    
-}
-
-.work-img {
-font-family: "DM Serif Display";
-font-size: 85px;
-font-weight: 400;
-line-height: 127.5px; 
-letter-spacing: 1.7px;
-}
-.work-item:first-child .work-img {
-   
-}
+.info-section {
+    background-color: #f7f1ec;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .info-box {
+    text-align: center;
+    color: #b88864;
+  }
+  
+  .info-box h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  .info-box p {
+    margin: 0;
+    font-size: 1em;
+    color: #6c6c6c;
+  }
+  
+  .divider {
+    border-left: 1px solid #e0e0e0;
+    height: 60px;
+    align-self: center;
+  }
