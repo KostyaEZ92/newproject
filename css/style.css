@@ -3,6 +3,7 @@
     --ptext-color: #4D5053;
     --buttontext-color: #FFF;
     --about-color: #F4F0EC;
+    --number-color: #CDA274;
 }
 
 a {
@@ -425,9 +426,7 @@ body {
     font-weight: 400;
     line-height: 37.5px;
     letter-spacing: 0.22px;
-    display: flex;
-    
-    align-items: center;
+
 }
 
 .review-country {
@@ -453,6 +452,7 @@ body {
     background: var(--about-color);
     padding-top: 103px;
     padding-bottom: 121px;
+
 }
 
 
@@ -561,33 +561,42 @@ body {
     margin-top: 150px;
 }
 
-.info-section {
-    background-color: #f7f1ec;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    max-width: 1000px;
-}
-
 .info-box {
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+}
+.info {
+
+    background-color: var(--about-color);
+}
+.info-section {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.info-tite {
     text-align: center;
-    color: #b88864;
+    font-family: "DM Serif Display";
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 127.5px;
+    letter-spacing: 1.7px;
+    color: var(--number-color);
+    margin-bottom: 10px;
 }
 
-.info-box h1 {
-    margin: 0;
-    font-size: 3em;
+.info-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: var(--ptext-color);
 }
-
-.info-box p {
-    margin: 0;
-    font-size: 1em;
-    color: #6c6c6c;
-}
-
-.divider {
-    border-left: 1px solid #e0e0e0;
-    height: 60px;
-    align-self: center;
+.info-section {
+    border-right: 1px solid red; /* Разделительная линия */
+    padding-right: 20px;
 }
