@@ -143,7 +143,8 @@ body {
 
 .advantages-title {
     color: var(--text-color);
-
+    display: flex;
+    justify-content: center;
     font-family: "DM Serif Display";
     font-size: 25px;
     font-weight: 400;
@@ -152,10 +153,14 @@ body {
     margin-bottom: 17px;
 }
 
+
+
+
+
 .advantages-text {
     color: var(--ptext-color);
     font-size: 22px;
-    width: 400px;
+
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
@@ -163,7 +168,7 @@ body {
 }
 
 .advantages-button {
-    margin: 0 auto;
+
     display: flex;
     border: none;
     background: none;
@@ -184,17 +189,20 @@ body {
 
 
 .advantages-item:first-child .advantages-button {
+    width: 317px;
     margin-top: 48px;
     padding: 20px 98px 0px;
 
 }
 
 .advantages-item:nth-child(2) .advantages-button {
+    width: 297px;
     margin-top: 15px;
     padding: 20px 98px 0px;
 }
 
 .advantages-item:last-child .advantages-button {
+    width: 296px;
     margin-top: 15px;
     padding: 20px 98px 0px;
 
@@ -264,7 +272,7 @@ body {
 
 .hero-button {
     border-radius: 18px;
-    color: #FFF;
+    color: var(--buttontext-color);
     width: 162px;
     font-family: Jost;
     font-size: 18px;
@@ -376,25 +384,39 @@ body {
 
 }
 
+.brand-item {
+    
+    margin: 0 auto;
+    max-width: 150px;
+  
+}
+
 .brand-item:first-child .brand-img {
     margin-right: 125px;
     margin-left: 48px;
-    width: 132px;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 
 .brand-item:nth-child(2) .brand-img {
     margin-right: 110px;
-    width: 103px;
 }
 
 .brand-item:nth-child(3) .brand-img {
     margin-right: 89px;
-    width: 164px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .brand-item:nth-child(4) .brand-img {
     margin-right: 112px;
-    width: 145px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+.brand-item:nth-child(5) .brand-img {
+    margin-right: 55px;
+    margin-top: 27px;
+    margin-bottom: 28px;
 }
 
 /* reviews */
@@ -531,22 +553,20 @@ body {
 .subtitle-project {
     font-family: "DM Serif Display";
     font-size: 25px;
-    width: 301px;
+    
     font-weight: 400;
     line-height: 37.5px;
     letter-spacing: 0.22px;
-
-    background-repeat: no-repeat;
 }
 
 .subtitle-text {
     color: var(--ptext-color);
-    width: 114px;
+    
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
-    width: 98px;
+    
 }
 
 .progectdesign-img {
@@ -556,21 +576,27 @@ body {
 .project-card {
     display: inline-block;
     text-decoration: none;
+    margin-bottom: 60px;
 }
 
 .progectdesign-img:nth-child(3) .project-card {
     margin-top: 150px;
 }
 
+
+
+
+
 .info-box {
     padding-top: 140px;
     padding-bottom: 140px;
-
+    list-style-type: none;
+    background-color: var(--about-color);
 }
 
 .info {
+    padding-top: 80px;
 
-    background-color: var(--about-color);
 }
 
 .info-section {
@@ -600,11 +626,7 @@ body {
     color: var(--ptext-color);
 }
 
-.info-section {
-    border-right: 1px solid red;
-    /* Разделительная линия */
-    padding-right: 20px;
-}
+
 
 
 
@@ -621,7 +643,7 @@ body {
     line-height: 62.4px;
     letter-spacing: 0.22px;
     color: var(--text-color);
-   
+
 
 }
 
@@ -631,7 +653,7 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
-   
+
     color: var(--ptext-color);
     margin-top: 21px;
     margin-bottom: 70px;
@@ -690,14 +712,16 @@ body {
     margin-top: 40px;
 }
 
-
-
 .hero-footer {
-    background-color: var(--text-color);
+    padding-bottom: 80px;
+}
 
+.hero-footerdiv {
+    background-color: var(--text-color);
     padding-top: 100px;
     padding-bottom: 95px;
     border-radius: 70px;
+    text-align: center;
 }
 
 .hero-footer-title {
@@ -712,16 +736,107 @@ body {
 }
 
 .hero-footer-text {
-   color: var(--buttontext-color);
+    color: var(--buttontext-color);
     text-align: center;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
 }
+
 .button-footer {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    padding: 21px 67px 23px 34px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    background-color: var(--number-color);
+    color: var(--buttontext-color);
+    border: none;
+    margin-top: 31px;
+}
+
+
+
+/* footer */
+
+
+.footer-content {
     display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    color: var(--ptext-color);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    display: flex;
+
+
+}
+
+
+
+
+.footer-title {
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;
+    color: var(--text-color);
+    margin-bottom: 22px;
+}
+
+.footer-img {
+    display: flex;
+
+}
+
+
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 20px;
+}
+
+
+
+
+.yellow-text {
+    color: var(--number-color);
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+
+
+
+
+
+
+
+
+.footer-text1 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: var(--ptext-color);
 }
