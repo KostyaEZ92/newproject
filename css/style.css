@@ -4,6 +4,7 @@
     --buttontext-color: #FFF;
     --about-color: #F4F0EC;
     --number-color: #CDA274;
+    --border-color:#E7E7E7;
 }
 
 a {
@@ -566,10 +567,12 @@ body {
     padding-bottom: 140px;
 
 }
+
 .info {
 
     background-color: var(--about-color);
 }
+
 .info-section {
     display: flex;
     gap: 16px;
@@ -596,7 +599,90 @@ body {
     letter-spacing: 0.22px;
     color: var(--ptext-color);
 }
+
 .info-section {
-    border-right: 1px solid red; /* Разделительная линия */
+    border-right: 1px solid red;
+    /* Разделительная линия */
     padding-right: 20px;
+}
+
+
+
+.work {
+    padding-top: 143px;
+    padding-bottom: 141px;
+}
+
+.work-title {
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.22px;
+    color: var(--text-color);
+    width: 274px;
+   
+}
+
+.work-subtitle {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    width: 589px;
+    color: var(--ptext-color);
+    margin-top: 21px;
+    margin-bottom: 70px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.work-item {
+    flex-basis: calc((100% - 38px) / 3);
+    border-radius: 62px;
+    width: 387px;
+    height: 515px;
+    border: 1px solid #E7E7E7;
+    padding: 21px 21px 198px 21px;
+}
+
+.work-img {
+    width: 100%;
+    border-radius: 45px 45px 0px 0px;
+}
+
+.work-name {
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    width: 334px;
+    margin-top: 15px;
+    color: var(--text-color);
+}
+
+.work-data {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    width: 144px;
+    color: var(--ptext-color);
+    margin-top: 33px;
+}
+.work-item:nth-child(4) {
+    margin-top: 40px;
+}
+.work-item:nth-child(5) {
+    margin-top: 40px;
+}
+.work-item:nth-child(6) {
+    margin-top: 40px;
 }
