@@ -150,34 +150,32 @@ body {
 }
 
 .advantages-item:first-child .advantages-button {
-   
+
     margin-top: 48px;
     padding: 20px 98px 0px;
 
 }
 
 .advantages-item:nth-child(2) .advantages-button {
-   
+
     margin-top: 15px;
     padding: 20px 98px 0px;
 }
 
 .advantages-item:last-child .advantages-button {
-    
+
     margin-top: 15px;
     padding: 20px 98px 0px;
 
 }
 
-.advantages-button {
-
-    
-}
+.advantages-button {}
 
 .afvantages-strela {
     margin-left: 6px;
-    margin-top:5px;
+    margin-top: 5px;
 }
+
 .advantages-title {
     color: var(--text-color);
     display: flex;
@@ -422,7 +420,7 @@ body {
     justify-content: space-between;
     padding: 51px 51px;
     border: var(--buttontext-color);
-    
+
 }
 
 .card-item {
@@ -436,7 +434,7 @@ body {
     border-radius: 100px;
     width: 77px;
     float: left;
-   
+
 }
 
 
@@ -476,7 +474,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.22px;
-    margin-top: 32px;
+    margin-top: 25px;
 
 }
 
@@ -535,7 +533,7 @@ body {
     position: relative;
 }
 
-.project-card {}
+
 
 .button-project {
     border-radius: 100px;
@@ -775,74 +773,121 @@ body {
 /* footer */
 
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-section {
-    flex: 1;
-}
-
-.footer-logo {
-    margin-bottom: 15px;
-}
-
 .footer-text {
-    color: var(--ptext-color);
+    width: 326px;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
-    display: flex;
-
-
-}
-
-.footer-img {
-    display: flex;
 }
 
 
+
+.footer-cont {
+
+    gap: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.footer-logo {
+    margin-top: 50px;
+}
+
+.footer-text {
+    margin-top: 15px;
+    color: var(--ptext-color);
+    
+}
+
+.social-icons {
+    margin-top: 10px;
+    padding: 19px 152px 15px 0px;
+}
 
 .footer-title {
-    font-family: "DM Serif Display";
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 37.5px;
-    letter-spacing: 0.22px;
+    margin-top: 50px;
     color: var(--text-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 37.5px; 
+letter-spacing: 0.22px;
+}
+
+.footer-title {
     margin-bottom: 22px;
 }
+
+.list-item {
+    margin-bottom: 30px;
+}
+
+
+.explore-item {
+    margin-bottom: 30px;
+}
+
+
+.adres-item {
+    margin-bottom: 29px;
+}
+
+
+
+.adress-list:first-child>.adres-item {
+    width: 321px;
+    
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+
+
+
+
 
 
 .footer-bottom {
     text-align: center;
+    padding-top: 35px;
+    padding-bottom: 36px;
+    border-top: 1px solid #eaeaea;
     margin-top: 20px;
-    border-top: 1px solid #E5E5E5;
-    padding-top: 20px;
+    width: 100%;
+    margin-top: 80px; 
 }
-
-
-.yellow-text {
-    color: var(--number-color);
-    margin-top: 35px;
-    margin-bottom: 36px;
-}
-
 
 .footer-text1 {
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.22px;
     color: var(--ptext-color);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+.yellow-text {
+    color: #f0c040;
 }
 
 
 
-.footer-program 
 
-.footer-item{
-   margin-bottom: 200px;
+
+
+
+
+
+
+
+.social-icons {
+    display: flex;
+    gap: 40px;
 }
