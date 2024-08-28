@@ -578,6 +578,25 @@ body {
 
 /* info*/
 
+
+
+.info-item {
+    position: relative;
+    text-align: center;
+    flex: 1;
+}
+
+.info-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: var(--number-color);
+}
+
+
 .info {
     padding-top: 80px;
 }
@@ -801,7 +820,7 @@ body {
 .footer-text {
     margin-top: 15px;
     color: var(--ptext-color);
-    
+
 }
 
 .social-icons {
@@ -812,11 +831,11 @@ body {
 .footer-title {
     margin-top: 50px;
     color: var(--text-color);
-font-family: "DM Serif Display";
-font-size: 25px;
-font-weight: 400;
-line-height: 37.5px; 
-letter-spacing: 0.22px;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;
 }
 
 .footer-title {
@@ -841,7 +860,7 @@ letter-spacing: 0.22px;
 
 .adress-list:first-child>.adres-item {
     width: 321px;
-    
+
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
@@ -861,16 +880,16 @@ letter-spacing: 0.22px;
     border-top: 1px solid #eaeaea;
     margin-top: 20px;
     width: 100%;
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
 .footer-text1 {
     color: var(--ptext-color);
-text-align: center;
-font-size: 22px;
-font-weight: 400;
-line-height: 33px; 
-letter-spacing: 0.22px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
 }
 
 .yellow-text {
@@ -881,7 +900,14 @@ letter-spacing: 0.22px;
 
 
 
-
+.adress-link {
+    width: 321px;
+    color: var(--ptext-color);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
 
 
 
@@ -890,4 +916,17 @@ letter-spacing: 0.22px;
 .social-icons {
     display: flex;
     gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.owrk-image {
+    margin-top: 200px;
 }
