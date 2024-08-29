@@ -129,6 +129,37 @@ body {
     width: 263px;
     height: 71px;
     background-color: var(--text-color);
+    padding: 10px 20px; /* Внутренние отступы */
+    border: none; /* Без рамки */
+    display: inline-flex; 
+    align-items: center; 
+    
+}
+
+.design-button {
+    display: inline-flex; 
+    align-items: center; 
+}
+.design-strela {
+    margin-left: 25px;
+}
+.hero-button {
+    width: 207px;
+    height: 71px;
+    flex-shrink: 0;
+}
+.footer-strela {
+    display: block;
+    margin-left: 25px;
+}
+.button-strela {
+    width: 20px; 
+    height: 20px; 
+   margin-left: 30px;
+}
+.button-footer {
+    display: inline-flex; 
+    align-items: center; 
 }
 
 .nav-link {
@@ -405,9 +436,6 @@ color: var(--number-color);
 
 }
 
-
-
-
 .review>.container {
     border-radius: 70px;
     background: var(--about-color);
@@ -504,8 +532,6 @@ color: var(--number-color);
     gap: 20px;
 }
 
-
-
 .project {
     padding-top: 100px;
 
@@ -537,8 +563,6 @@ color: var(--number-color);
     letter-spacing: 0.22px;
 }
 
-
-
 .project-item {
 
     display: inline-block;
@@ -546,8 +570,6 @@ color: var(--number-color);
     margin-bottom: 60px;
     position: relative;
 }
-
-
 
 .button-project {
     border-radius: 100px;
@@ -707,13 +729,7 @@ color: var(--number-color);
     height: 515px;
     border: 1px solid #E7E7E7;
     padding: 21px 21px 198px 21px;
-
-
-
-
     position: relative;
-    /* Устанавливаем относительное позиционирование для li */
-
 }
 
 .work-img {
@@ -814,18 +830,12 @@ color: var(--number-color);
     letter-spacing: 0.22px;
 }
 
-
-
 .footer-cont {
-
     gap: 0;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-
 
 .footer-logo {
     margin-top: 50px;
@@ -870,8 +880,6 @@ color: var(--number-color);
     margin-bottom: 29px;
 }
 
-
-
 .adress-list:first-child>.adres-item {
     width: 321px;
 
@@ -880,12 +888,6 @@ color: var(--number-color);
     line-height: 33px;
     letter-spacing: 0.22px;
 }
-
-
-
-
-
-
 
 .footer-bottom {
     text-align: center;
@@ -910,10 +912,6 @@ color: var(--number-color);
     color: #f0c040;
 }
 
-
-
-
-
 .adress-link {
     width: 321px;
     color: var(--ptext-color);
@@ -923,23 +921,10 @@ color: var(--number-color);
     letter-spacing: 0.22px;
 }
 
-
-
-
-
 .social-icons {
     display: flex;
     gap: 40px;
 }
-
-
-
-
-
-
-
-
-
 
 .owrk-image {
     margin-top: 200px;
