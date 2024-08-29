@@ -180,9 +180,7 @@ color: var(--number-color);
     padding-bottom: 100px;
 }
 
-.text-box {
-    padding-top: 75px;
-}
+
 
 .advantages-list {
     display: flex;
@@ -530,6 +528,7 @@ color: var(--number-color);
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    row-gap: 60px;
 }
 
 .project {
@@ -567,7 +566,6 @@ color: var(--number-color);
 
     display: inline-block;
     text-decoration: none;
-    margin-bottom: 60px;
     position: relative;
 }
 
@@ -720,6 +718,7 @@ color: var(--number-color);
     display: flex;
     flex-wrap: wrap;
     gap: 19px;
+    row-gap: 40px;
 }
 
 .work-item {
@@ -758,17 +757,7 @@ color: var(--number-color);
     margin-top: 33px;
 }
 
-.work-item:nth-child(4) {
-    margin-top: 40px;
-}
 
-.work-item:nth-child(5) {
-    margin-top: 40px;
-}
-
-.work-item:nth-child(6) {
-    margin-top: 40px;
-}
 
 .hero-footer {
     padding-bottom: 80px;
