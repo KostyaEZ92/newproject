@@ -37,7 +37,7 @@ p {
     padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
-    outline: solid red 1px;
+   
 
 }
 
@@ -71,10 +71,14 @@ body {
     justify-content: center;
 }
 
+.btnnn-img {
+    margin-top: 50px;
+}
 
 
-
-
+.nav-item:first-child .nav-link {
+    color: var(--number-color);
+}
 
 
 /* hero*/
@@ -127,6 +131,16 @@ body {
     background-color: var(--text-color);
 }
 
+.nav-link {
+    color: var(--text-color);
+}
+.nav-link:hover {
+color: var(--number-color);
+}
+.nav-link:first-child .nav-list {
+    color: var(--number-color);
+}
+
 /* advantages */
 
 
@@ -169,7 +183,7 @@ body {
 
 }
 
-.advantages-button {}
+
 
 .afvantages-strela {
     margin-left: 6px;
